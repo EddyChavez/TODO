@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": "backend"
+		},
+		{
+			"path": "gestion-de-usuarios-y-permisos-front-end"
+		}
+	],
+	"settings": {}
+}
