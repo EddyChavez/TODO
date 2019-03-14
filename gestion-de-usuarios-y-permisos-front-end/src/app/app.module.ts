@@ -56,7 +56,7 @@ import { AuthService } from './services/auth.service';
 import { AfterLoginService } from './services/after-login.service';
 import { BeforeLoginService } from './services/before-login.service';
 import { SnotifyModule, SnotifyService, ToastDefaults } from 'ng-snotify';
-import { FormComponent } from './components/form/form.component';
+import { FormularioComponent } from './components/formulario/formulario.component';
 
 @NgModule({
   imports: [
@@ -91,7 +91,7 @@ import { FormComponent } from './components/form/form.component';
     ProfileComponent,
     RequestResetComponent,
     ResponseResetComponent,
-    FormComponent
+    FormularioComponent
   ],
   providers: [JarwisService, TokenService, AuthService, AfterLoginService, BeforeLoginService, { provide: 'SnotifyToastConfig', useValue: ToastDefaults },
     SnotifyService,{

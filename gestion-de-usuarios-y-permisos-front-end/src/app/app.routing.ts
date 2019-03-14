@@ -15,7 +15,7 @@ import { AfterLoginService } from './services/after-login.service';
 import { RequestResetComponent } from './components/password/request-reset/request-reset.component';
 import { BeforeLoginService } from './services/before-login.service';
 import { ResponseResetComponent } from './components/password/response-reset/response-reset.component';
-import { FormComponent } from './components/form/form.component';
+import { FormularioComponent } from './components/formulario/formulario.component';
 
 
 
@@ -42,7 +42,7 @@ export const routes: Routes = [
 
   {
     path: 'Formulario',
-    component: FormComponent,
+    component: FormularioComponent,
     canActivate: [BeforeLoginService],
     data: {
       title: 'Formulario'
